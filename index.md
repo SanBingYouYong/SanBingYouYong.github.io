@@ -4,7 +4,7 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to contacts and other links](./page-of-links.html).
+[Link to contacts and other links](./page-of-links.md).
 
 There should be whitespace between paragraphs.
 
