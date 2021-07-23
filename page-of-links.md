@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Page of Contacts and Links
-description: This is the page of links and contacts
+title: SanBingYouYong's Links
+description: Email Addresses and Profile Pages
 ---
 
 # Welcome to the page of links / contacts
@@ -18,6 +18,7 @@ description: This is the page of links and contacts
 ## Platform Profile Pages
 
 [领英主页 / Linkedin Profile](https://www.linkedin.com/in/shuyuan-zhang-ray707/)
+
 [知乎主页 / Zhihu Profile](https://www.zhihu.com/people/san-bing-you-yong-86)
 
 [back](./)
