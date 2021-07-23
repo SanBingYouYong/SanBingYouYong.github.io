@@ -2,6 +2,7 @@
 layout: default
 ---
 
+
 ## Personal Skills
 
 >Has experience in software developing using Java, achieved A1 in multiple course assignments in OOP class. 
@@ -21,12 +22,12 @@ layout: default
 *   Hello World Hackathon: Team Member       -- 2021.02
 >Attended workshops, gained experience in H5, UI design and game development in Python.
 
-## Miscellaneous
+# Miscellaneous
 
-# Artworks
+## Artworks
 
 >Still trying to find a platform to hold those files...
 
-# Contacts
+## Contacts
 
 [Link to contacts and other links](./page-of-links.md)
