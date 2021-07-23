@@ -2,122 +2,31 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+## Personal Skills
 
-[Link to contacts and other links](./page-of-links.md).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
+>Has experience in software developing using Java, achieved A1 in multiple course assignments in OOP class. 
 >
-> When something is important enough, you do it even if the odds are not in your favor.
+>Has experience in software developing and data analysis using Python, participated in multiple competitions. 
+>
+>Fourth Prize in Functional Programming Competition 2020, a course-wide competition in year 1. 
 
-### Header 3
+## Major Experiences
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+*   DataFest 2021: Team Leader               -- 2021.03
+>Leading a team of 3 members, analyzed data using Python and visualized the result with Matplotlib. In charge of most coding. Analyzed the drug use of different groups of people sorted by age.
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+*   Google Hashcode 2021: Team Member        -- 2021.02
+>In a team of 3, collaborating online using Python, modelled traffic status and searched for optimized traffic control solutions. Designed the team logo due to team's name using Vectornator.
 
-#### Header 4
+*   Hello World Hackathon: Team Member       -- 2021.02
+>Attended workshops, gained experience in H5, UI design and game development in Python.
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+## Miscellaneous
 
-##### Header 5
+# Artworks
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+>Still trying to find a platform to hold those files...
 
-###### Header 6
+# Contacts
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+[Link to contacts and other links](./page-of-links.md)
