@@ -2,13 +2,7 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+~~wow this is my first website~~
 
 ## Personal Skills
 
@@ -29,12 +23,12 @@ There should be whitespace between paragraphs. We recommend including a README, 
 *   Hello World Hackathon: Team Member       -- 2021.02
 >Attended workshops, gained experience in H5, UI design and game development in Python.
 
-# Miscellaneous
+## Miscellaneous
 
-## Artworks
+### Artworks
 
 >Still trying to find a platform to hold those files...
 
-## Contacts
+### Contacts
 
 [Link to contacts and other links](./page-of-links.md)
