@@ -17,3 +17,5 @@ description: Blender Python API, and pure models / scenes
 ![IRSI-EscortFighter-EF-12-final2s.png](./assets/pics/Blender/IRSI-EscortFighter-EF-12-final2s.png)
 
 ![IRSI-Tank-T-30-final1cs.png](./assets/pics/Blender/IRSI-Tank-T-30-final1cs.png)
+
+[Back](./artworks.md)
