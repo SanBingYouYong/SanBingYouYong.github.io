@@ -2,7 +2,7 @@
 layout: default
 ---
 
-~~wow this is my first website~~
+~~wow this is my first web page~~
 
 ## Personal Skills
 
@@ -10,7 +10,9 @@ layout: default
 >
 >Has experience in software developing and data analysis using **Python**, participated in multiple competitions. 
 >
->**Fourth Prize** in Functional Programming Competition 2020, a course-wide competition in year 1. 
+> **Fourth Prize** in Functional Programming Competition 2020, a course-wide competition in year 1. 
+> 
+> Year 2 Student Representative
 
 ## Major Experiences
 
@@ -34,7 +36,7 @@ In charge of a **core component** involving the detection and processing of iden
 
 ### Artworks
 
-[Gallery](./artworks.md)
+[Gallery](./Pics-NewGallery.md)
 
 ### Contacts
 
