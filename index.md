@@ -14,11 +14,12 @@ layout: default
 
 ## Major Experiences
 
-*   Wuhan Tianyu Information Industry Co,. Ltd.: **Computer Vision** Algorithm Engineer Intern -- 2021.06 - present
-> **QR Code Detection** under various and mostly not ideal circumstances, using **opencv-python**; Currently working in the field of **Pattern Recognition - Human-Object Interaction**. 
+*   Wuhan Tianyu Information Industry Co,. Ltd.: **Computer Vision** Algorithm Engineer Intern -- 2021.06 - 2021.09
+> **QR Code Detection** under various and mostly not ideal circumstances, using **opencv-python** and **YOLOV5**; 
+In charge of a **core component** involving the detection and processing of identification-codes, usually large in quantity, in a **Smart Classroom System**;
 
 *   Wuhan GSC Information Technology Co., Ltd.: Software Engineer Intern -- 2021.06
->Worked in the **Digital Twin** Team; **Map and 3D Tiles Generation** based on **UE4** Scenes; Front-end Dev Assistant. 
+> **Digital Twin** Team; Map, 3D Tiles and UE4 Scene Generation; Front-end Dev Assistant
 
 *   DataFest 2021: Team Leader -- 2021.03
 >Leading a team of 3 members, analyzed data using **Python** and **visualized** the result with **Matplotlib**. In charge of most coding. Analyzed the drug use of different groups of people sorted by age.
