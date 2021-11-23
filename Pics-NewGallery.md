@@ -8,21 +8,28 @@ description: Personal Artworks
 
 [Back](./index.md)
 
-![JZX0.gif](./assets/pics/NewGallery/JZX0.gif)
+![Project-2300_ws](./assets/pics/NewGallery//Project_NG-Project-2300_3_ws.png)
 
-![XC-2-DZ823_4.png](./assets/pics/NewGallery/XC-2-DZ823_4.png)
+![Gallery_0](assets/pics/NewGallery/Project_NG-Gallery_0.png)
 
-![BL-Tank-SAF-735-4_transparent.png](./assets/pics/NewGallery/BL-Tank-SAF-735-4_transparent.png)
+![ZC-44-T2241](assets/pics/NewGallery/Project_NG-Tank-ZC-44-T2241_0.png)
 
-![735-1wire.png](./assets/pics/NewGallery/735-1wire.png)
+![JZX-823-1025DZ](assets/pics/NewGallery/JZX-823-1025DZ_3.jpg)
 
-![XC-2_wip_3.png](./assets/pics/NewGallery/XC-2_wip_3.png)
+![Gallery_7](assets/pics/NewGallery/Project_NG-Gallery_7.png)
 
-![BL-Tank-SAF-735-3_transparent.png](./assets/pics/NewGallery/BL-Tank-SAF-735-3_transparent.png)
+![SAF-735-4](assets/pics/NewGallery/BL-Tank-SAF-735-4_transparent.png)
 
-![XC-2-track.png](./assets/pics/NewGallery/XC-2-track.png)
+![Project-2300_2](assets/pics/NewGallery/Project_NG-Project-2300_2.png)
 
-![BLS-Tank-G-30_transparent_blue_white_background.png](./assets/pics/NewGallery/BLS-Tank-G-30_transparent_blue_white_background.png)
+![ZC-44-LianPu](assets/pics/NewGallery/Project_NG-Tank-Mat-ZC-44_1.png)
 
+![Gallery-5](assets/pics/NewGallery/Project_NG-Gallery_5.png)
+
+![XC-2-track](assets/pics/NewGallery/XC-2-track.png)
+
+![Gallery-3](assets/pics/NewGallery/Project_NG-Gallery_3.png)
+
+![JZX0](assets/pics/NewGallery/JZX0.gif)
 
 [Back](./index.md)
