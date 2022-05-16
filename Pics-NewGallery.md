@@ -8,28 +8,32 @@ description: Personal Artworks
 
 [Back](./index.md)
 
-![Project-2300_ws](./assets/pics/NewGallery//Project_NG-Project-2300_3_ws.png)
+![wtf_circle_Mirror](./assets/pics/wtf_circle_Mirror.jpg)
 
-![Gallery_0](assets/pics/NewGallery/Project_NG-Gallery_0.png)
+![Vectored](assets/pics/Vectored.png)
 
-![ZC-44-T2241](assets/pics/NewGallery/Project_NG-Tank-ZC-44-T2241_0.png)
+![Project_NG-Project-2300_6_ws](assets/pics/Project_NG-Project-2300_6_ws.png)
 
-![JZX-823-1025DZ](assets/pics/NewGallery/JZX-823-1025DZ_3.jpg)
+![Project_NG-Tank-ZC-44_z](assets/pics/Project_NG-Tank-ZC-44_z.png)
 
-![Gallery_7](assets/pics/NewGallery/Project_NG-Gallery_7.png)
+![Project_NG-Gallery_3](assets/pics/Project_NG-Gallery_3.png)
 
-![SAF-735-4](assets/pics/NewGallery/BL-Tank-SAF-735-4_transparent.png)
+![Project_NG-Gallery_0](assets/pics/Project_NG-Gallery_0.png)
 
-![Project-2300_2](assets/pics/NewGallery/Project_NG-Project-2300_2.png)
+![plane_paper0](assets/pics/plane_paper0.jpg)
 
-![ZC-44-LianPu](assets/pics/NewGallery/Project_NG-Tank-Mat-ZC-44_1.png)
+![JZX-823-1025DZ_3](assets/pics/JZX-823-1025DZ_3.jpg)
 
-![Gallery-5](assets/pics/NewGallery/Project_NG-Gallery_5.png)
+![JZX_BOV](assets/pics/JZX_BOV.png)
 
-![XC-2-track](assets/pics/NewGallery/XC-2-track.png)
+![combined](assets/pics/combined.jpg)
 
-![Gallery-3](assets/pics/NewGallery/Project_NG-Gallery_3.png)
+![cloud_nodes_with_spaceship_plane_background](assets/pics/cloud_nodes_with_spaceship_plane_background.jpg)
 
-![JZX0](assets/pics/NewGallery/JZX0.gif)
+![city-on-ruin-reflex-cities-down](assets/pics/city-on-ruin-reflex-cities-down.jpg)
+
+![CCT-Fan3](assets/pics/CCT-Fan3.png)
+
+![CCT-Fan-2-0](assets/pics/CCT-Fan-2-0.png)
 
 [Back](./index.md)
