@@ -20,25 +20,14 @@ A dedicated Computer Science graduate from the University of Edinburgh, currentl
 ### LLMs
 - no money so focused on applications: 
     - Prompt Engineering, Multi-agent systems, OpenAI API, Ollama API
-    - Task breakdown for better performance and robustness via designing and implementing Multi-agent systems
     - Generate fine-tune data for low-resource tasks
-    - Deployed on remote server [QAnything](https://github.com/netease-youdao/QAnything) to serve as a LLM backend with knowledge base
 
 ### Digital Humans
-- Deployed on remote server, extended and contributed to the open-source metahuman framework [Linly_Talker](https://github.com/Kedreamix/Linly-Talker), working with QAnything as an extra method to generate speech text for digital humans
-- Deployed on remote server [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) to fine-tune models for voice cloning
-- Deployed on remote server [metahuman-stream](https://github.com/lipku/metahuman-stream) as a real-time digital human streaming method
+- Deployed open-source frameworks and made contributions: [Linly_Talker](https://github.com/Kedreamix/Linly-Talker), [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS), [metahuman-stream](https://github.com/lipku/metahuman-stream), [QAnything](https://github.com/netease-youdao/QAnything)
 
 ### Internet of Things
 - UoE Course: *Principles and Design of IoT Systems*
-    - Collect human activity data through wearable devices
-    - Design, implement and train neural networks (CNN, RNN, LSTM with model ensembling) to identify activity and respiratory symptoms
-    - Develop Android App to deploy trained models, connect to sensors via Bluetooth and classify human activities /respiratory symptoms in real-time
+    - wearable devices, human activity recognition, deploy trained models to android
 
 ### System Engineering
 - Group Project: A domino-placing robot based on TurtleBot, Lego motors, 3D printed parts and an Android App for Bluetooth connection to the robot for the course *System Design Project*
-    - Designed the domino-reloading and automatic placement mechanism
-    - Designed and modelled the 3D printed parts
-    - Wrote Python scripts to control the Lego motors
-    - Coordinated Android App development
-    - Designed and implemented the communication method between server, robot and the app
