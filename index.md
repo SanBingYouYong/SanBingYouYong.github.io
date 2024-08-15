@@ -1,26 +1,24 @@
 # ZHANG Shuyuan
-Shuyuan is a dedicated Computer Science graduate from the University of Edinburgh, currently pursuing an MSc in Advanced Computing at Imperial College London. With a solid background in **Computer Vision**, **Computer Graphics**, and **Natural Language Processing**, Shuyuan has gained valuable experience in various technical domains, including *digital humans* and *large language models*.
+A dedicated Computer Science graduate from the University of Edinburgh, currently pursuing an MSc in Advanced Computing at Imperial College London. With a solid background in **Computer Vision**, **Computer Graphics**, and **Natural Language Processing**, he has gained valuable experience in various technical domains, including *digital humans* and *large language models*.
 
-## Highlights
-### Computer Vision / Computer Graphics
-- UoE Course: *Computer Graphics: Rendering* & *Computer Graphics: Geometry and Simulation*
-    - Learn C++ from scratch and implement **Ray Tracing** with advanced features including texture, acceleration hierarchy based on BVH, path tracing, pixel sampling, lens/aperture sampling and light sampling
-    - **Mesh Reconstruction** from point clouds, discrete analysis and parameterization
+## TL;DR
+### CV/CG
 - UoE Bachelor Dissertation: *Inverse Procedural Modeling: from Sketches to Buildings*
-    - Construct a procedural model for buildings based on Directed Acyclic Graphs (DAG)
-    - Distort 3D models and render as a 2D sketch image; generate training data with parameter sampling
-    - Encoder-decoder & Multi-task decoders that predict DAG parameters based on input sketch image
-    - Develop Blender add-on as user interface
+    - DAG based on Blender's geometry nodes as procedural shape program
+    - Synthetic data generation through custom distortion&render pipeline
+    - Encoder-decoder & Multi-task decoders neural network to predict shape parameters
+    - Blender add-on as user interface
+- took all (both) CG courses available at UoE: 
+    - C++ Ray Tracer
+    - Mesh Reconstructionfrom point clouds, Discrete Analysis and Parameterization
 
-### Natural Language Processing
-- UoE Coursess: *Foundations of Natural Language Processing* & *Natural Language Understanding, Generation and Machine Translation*
-    - N-gram, Bayesian probabilities, RNN, GRU, LSTM, Transformer and Attention mechanism
-    - Group Project for the course *Machine Learning Practical*: Query-focused Summarization via GPT Prompting on Ambiguous QA
-- Extracurricular Application: 
-    - N-gram probabilities from Chinese poetry and as a name-generator mod for the game Stellaris, with over 500 subscriptions. 
+### NLP
+- UoE NLP Coursess: *Foundations of Natural Language Processing* & *Natural Language Understanding, Generation and Machine Translation*
+    - from *N-gram, Bayesian probabilities* to *RNN, GRU, LSTM* and finally *Transformer and Attention* mechanism
+- NLP for games: built Stellaris namelist mod based on Ngram probabilities computed in a Chinese poetry dataset (500+ subs!)
 
-### Large Language Models
-- Application: 
+### LLMs
+- no money so focused on applications: 
     - Prompt Engineering, Multi-agent systems, OpenAI API, Ollama API
     - Task breakdown for better performance and robustness via designing and implementing Multi-agent systems
     - Generate fine-tune data for low-resource tasks
