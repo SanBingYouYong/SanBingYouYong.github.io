@@ -1,12 +1,5 @@
-# Resume
-ZHANG Shuyuan - [email](rayzhang707@gmail.com) - [website](sanbingyouyong.github.io)
-
-## Education
-- The University of Edinburgh (2020 ~ 2024)
-    - BSc Computer Science (Honours)
-    - Weighted average grade: 78 (First Class)
-- Imperial College London (2024 ~ 2025)
-    - MSc Advanced Computing
+# ZHANG Shuyuan
+Shuyuan is a dedicated Computer Science graduate from the University of Edinburgh, currently pursuing an MSc in Advanced Computing at Imperial College London. With a solid background in **Computer Vision**, **Computer Graphics**, and **Natural Language Processing**, Shuyuan has gained valuable experience in various technical domains, including *digital humans* and the application of *large language models*.
 
 ## Highlights
 ### Computer Vision / Computer Graphics
@@ -51,23 +44,3 @@ ZHANG Shuyuan - [email](rayzhang707@gmail.com) - [website](sanbingyouyong.github
     - Wrote Python scripts to control the Lego motors
     - Coordinated Android App development
     - Designed and implemented the communication method between server, robot and the app
-
-
-## Work Experience
-- HGTech - R&D Intern (Summer 2024)
-    - Worked on digital human topics, deployed various services on compute server directly or using docker containers, hosted locally a Streamlit-driven webpage to track service status
-- VisionTalk - Algorithms Intern (June 2024)
-    - Improved LLM performance and robustness on chat generation and decision making via breaking down a complex task and designing/implementing a Multi-agent system
-- GraphviX Lab, IPAB, UoE - Summer Research Internship (Summer 2023)
-    - Researched on topics of sketch-based inverse procedural modeling. Implemented shape grammars based on Blender geometry nodes and its APIs. Trained neural networks to inference shape parameters from sketches, and integrated above pipelines as a Blender plug-in. Some tech stacks are also part of my bachelor dissertation. 
-- UoE - Tutor (2023)
-    - A paid position delivering weekly tutorials for the course *Reasoning and Agents*, two hours per week
-- EUFS - Software Infrastructure (2022 ~ 2023/24)
-    - Software Infrastructure team for Driverless Vehicle
-        - Maintained, refactored and extended `eufs_cli`, the command-line-interface tool in Python
-            - refactored 70 lines of repeated code for each command to 5 lines
-        - Provide supporting functionalities around git, colcon and more
-        - Contributed to the server backend of EUFS-Testing-Application
-        - Update launch configurations of the self-driving race car under different tasks
-- Wuhan Tianyu Information Industry - Algorithms Intern (Summer 2021)
-    - Carried out object detection tasks using OpenCV-Python and YOLOv5, trained models focusing on human and traffic analysis tasks. Wrote scripts to process large amount ofArUco codes. Collected, cleaned and augmented dataset for training
