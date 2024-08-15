@@ -1,5 +1,5 @@
 # ZHANG Shuyuan
-Shuyuan is a dedicated Computer Science graduate from the University of Edinburgh, currently pursuing an MSc in Advanced Computing at Imperial College London. With a solid background in **Computer Vision**, **Computer Graphics**, and **Natural Language Processing**, Shuyuan has gained valuable experience in various technical domains, including *digital humans* and the application of *large language models*.
+Shuyuan is a dedicated Computer Science graduate from the University of Edinburgh, currently pursuing an MSc in Advanced Computing at Imperial College London. With a solid background in **Computer Vision**, **Computer Graphics**, and **Natural Language Processing**, Shuyuan has gained valuable experience in various technical domains, including *digital humans* and *large language models*.
 
 ## Highlights
 ### Computer Vision / Computer Graphics
