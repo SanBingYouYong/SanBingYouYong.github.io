@@ -34,17 +34,17 @@
 
         <p class="view"><a href="{{ './repos.html' }}">Highlight Repositories</a></p>
 
-        {% if site.github.is_user_page %}
+        <!-- {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %}
+        {% endif %} -->
 
         <p class="view"><a href="{{ './index_cn.html' }}">中文</a></p>
 
         {% if site.show_downloads %}
         <ul class="downloads">
-          <li><a href="{{ ./assets/pdf/cvShuyuanZhang2425.pdf }}">Download <strong>Resume</strong></a></li>
-          <li><a href="{{ ./assets/pdf/cv张书源2425.pdf }}">Download <strong>简历</strong></a></li>
-          <!-- <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li> -->
+          <li><a href="{{ ./cvShuyuanZhang2425.pdf }}">Download <strong>Resume</strong></a></li>
+          <li><a href="{{ ./cv张书源2425.pdf }}">Download <strong>简历</strong></a></li>
+          <li><a href="{{ site.github.owner_url }}">View My <strong>GitHub</strong></a></li>
         </ul>
         {% endif %}
       </header>
