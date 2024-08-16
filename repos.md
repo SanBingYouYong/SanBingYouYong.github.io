@@ -16,13 +16,13 @@
 ## NLP at home
 - [person_name_generator](https://github.com/SanBingYouYong/Person-Name-Generator) and [hbigram_based_phrase_generation](https://github.com/SanBingYouYong/BigramBased-PhraseGeneration)
     - a Chinese-style person name generator and its *algorithmic* core: bigram probablities from a Chinese poetry dataset. (see `Contributed to` section below)
-    - data generated later became part of the [Stellaris name list mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2936448779) with 500+ subs.
+    - data generated later became part of the [Stellaris name list mod "PoeticCN"](https://steamcommunity.com/sharedfiles/filedetails/?id=2936448779) with 500+ subs.
     - example Chinese names generated from Songci: 
         > 崔绣巾 廉北寒 富山红 司空多欢 傅榴垂 罗秋落 沈楼零 谷华一 西门郎间 纪非桃 习人青 符零何 郏鸯易 傅条向 师等潇 西门一香 令狐华烟 宋何共
 
 ## Blender
 - [distortion_renderer](https://github.com/SanBingYouYong/distortion-renderer)
-    - *A Blender custom add-on that distorts an object's edges and renders with Freestyle to create a sketch-like image.*
+    - *A Blender custom add-on that distorts an object's edges and renders with Freestyle to create a sketch-like image. (you may also use the generated Bezier curves directly for subsequent tasks)*
     - originally part of my dissertation (to generate sketches for training), now refactored into a standalone Blender add-on.
     ![dr](./assets/img/dr.png)
 - [auto_renderer](https://github.com/SanBingYouYong/Blender-Auto-Renderer)

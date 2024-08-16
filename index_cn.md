@@ -19,7 +19,7 @@
     - 为低资源任务生成微调数据
 
 ### 数字人
-- 部署开源框架并作出贡献/PR: 
+- 本地/服务器部署相关开源框架并贡献代码/PR: 
     - [Linly_Talker](https://github.com/Kedreamix/Linly-Talker)
     - [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)
     - [metahuman-stream](https://github.com/lipku/metahuman-stream)
