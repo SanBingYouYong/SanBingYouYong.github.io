@@ -22,7 +22,7 @@
 
 ### 自然语言处理
 - 爱丁堡大学课程：*自然语言处理基础* & *自然语言理解、生成与机器翻译*
-    - N元模型，贝叶斯概率，RNN，GRU，LSTM，Transformer和Attention机制
+    - N-gram模型，贝叶斯概率，RNN，GRU，LSTM，Transformer和Attention机制
     - 课程*机器学习实践*的小组项目：通过GPT Prompting进行的Query-focused Summarization
 - 课外应用：
     - 基于中文诗歌的N-gram模型概率，为游戏Stellaris开发了古风命名组mod，拥有500+订阅。
