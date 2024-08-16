@@ -4,3 +4,4 @@ plugins:
 title: SanBingYouYong
 description: UoE BSc Computer Science First-class Honours --> Imperial MSc Advanced Comput'ing
 logo: /assets/img/logo.png
+show_downloads: true

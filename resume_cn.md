@@ -2,11 +2,11 @@
 张书源 - [邮箱](rayzhang707@gmail.com) - [网站](sanbingyouyong.github.io)
 
 ## 教育背景
+- 伦敦帝国理工学院 (2024 ~ 2025)
+    - Advanced Computing硕士(攻读中)
 - 爱丁堡大学 (2020 ~ 2024)
     - 计算机科学学士（With Honours）
     - 加权平均成绩: 78 (一等学位)
-- 伦敦帝国理工学院 (2024 ~ 2025)
-    - Advanced Computing硕士(攻读中)
 
 ## 亮点
 

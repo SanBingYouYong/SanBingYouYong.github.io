@@ -2,11 +2,11 @@
 ZHANG Shuyuan - [email](rayzhang707@gmail.com) - [website](sanbingyouyong.github.io)
 
 ## Education
+- Imperial College London (2024 ~ 2025)
+    - MSc Advanced Computing
 - The University of Edinburgh (2020 ~ 2024)
     - BSc Computer Science (Honours)
     - Weighted average grade: 78 (First Class)
-- Imperial College London (2024 ~ 2025)
-    - MSc Advanced Computing
 
 ## Highlights
 ### Computer Vision / Computer Graphics
