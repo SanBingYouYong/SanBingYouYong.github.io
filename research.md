@@ -1,6 +1,5 @@
 # Research
-
-
+Interested in combination of CV / CG / NLP. 
 - UoE Bachelor Dissertation: *Inverse Procedural Modeling: from Sketches to Buildings*
     - Construct a procedural model for buildings based on Directed Acyclic Graphs (DAG)
     - Distort 3D models and render as a 2D sketch image; generate training data with parameter sampling

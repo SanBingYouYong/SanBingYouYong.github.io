@@ -1,16 +1,12 @@
 # ZHANG Shuyuan
 A dedicated Computer Science graduate from the University of Edinburgh, currently pursuing an MSc in Advanced Computing at Imperial College London. With a solid background in **Computer Vision**, **Computer Graphics**, and **Natural Language Processing**, he has gained valuable experience in various technical domains, including *digital humans* and *large language models*.
 
-## TL;DR
+## TL;DR:
 ### CV/CG
 - UoE Bachelor Dissertation: *Inverse Procedural Modeling: from Sketches to Buildings*
-    - DAG based on Blender's geometry nodes as procedural shape program
-    - Synthetic data generation through custom distortion&render pipeline
-    - Encoder-decoder & Multi-task decoders neural network to predict shape parameters
-    - Blender add-on as user interface
+    - Blender add-on, DAG, [*Distortion Renderer*](https://github.com/SanBingYouYong/distortion-renderer), Encoder-decoder, Multi-task decoders
 - took all (both) CG courses available at UoE: 
-    - C++ Ray Tracer
-    - Mesh Reconstructionfrom point clouds, Discrete Analysis and Parameterization
+    - C++ Ray Tracer, Mesh Reconstruction from point clouds, Discrete Analysis and Parameterization
 
 ### NLP
 - UoE NLP Coursess: *Foundations of Natural Language Processing* & *Natural Language Understanding, Generation and Machine Translation*
@@ -23,7 +19,11 @@ A dedicated Computer Science graduate from the University of Edinburgh, currentl
     - Generate fine-tune data for low-resource tasks
 
 ### Digital Humans
-- Deployed open-source frameworks and made contributions: [Linly_Talker](https://github.com/Kedreamix/Linly-Talker), [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS), [metahuman-stream](https://github.com/lipku/metahuman-stream), [QAnything](https://github.com/netease-youdao/QAnything)
+- Deployed open-source frameworks and made contributions: 
+    - [Linly_Talker](https://github.com/Kedreamix/Linly-Talker)
+    - [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)
+    - [metahuman-stream](https://github.com/lipku/metahuman-stream)
+    - [QAnything](https://github.com/netease-youdao/QAnything)
 
 ### Internet of Things
 - UoE Course: *Principles and Design of IoT Systems*
