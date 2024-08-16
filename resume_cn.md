@@ -6,7 +6,7 @@
     - 计算机科学学士（With Honours）
     - 加权平均成绩: 78 (一等学位)
 - 伦敦帝国理工学院 (2024 ~ 2025)
-    - Advanced Computing硕士
+    - Advanced Computing硕士(攻读中)
 
 ## 亮点
 
