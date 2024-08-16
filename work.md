@@ -14,7 +14,7 @@
 
 ### Tutor
 - UoE, 2023
-    - A paid position delivering weekly tutorials for the course *Reasoning and Agents*, two hours per week
+    - Delivered weekly tutorials for the course *Reasoning and Agents*, two hours per week
 
 ### Software Infrastructure
 - Edinburgh University Formula Students (EUFS), 2022 ~ 2023/24
