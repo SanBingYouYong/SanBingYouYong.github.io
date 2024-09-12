@@ -19,7 +19,7 @@
     - 为低资源任务生成微调数据
 
 ### 数字人
-- 本地/服务器部署相关开源框架并贡献代码/PR: 
+- 本地/服务器部署并集成相关开源框架并贡献代码/PR: 
     - [Linly_Talker](https://github.com/Kedreamix/Linly-Talker)
     - [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)
     - [metahuman-stream](https://github.com/lipku/metahuman-stream)
@@ -31,6 +31,10 @@
 
 ### 系统工程
 - 小组项目：一个基于TurtleBot、Lego电机、3D打印部件以及安卓App通过蓝牙连接机器人的多米诺骨牌放置机器人项目, 为课程*系统设计项目*而开发
+
+### 软件开发
+- 后端: flask, fastapi, MongoDB
+- 使用docker容器部署服务, 实现基于argparse的cli或基于streamtlit的简单界面
 
 ## 链接:
 - [研究经历](./research_cn.html)

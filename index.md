@@ -19,7 +19,7 @@ A dedicated Computer Science graduate from the University of Edinburgh, currentl
     - Generate fine-tune data for low-resource tasks
 
 ### Digital Humans
-- Deployed open-source frameworks and made contributions: 
+- Deployed / Integrated open-source frameworks and made contributions: 
     - [Linly_Talker](https://github.com/Kedreamix/Linly-Talker)
     - [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)
     - [metahuman-stream](https://github.com/lipku/metahuman-stream)
@@ -31,3 +31,7 @@ A dedicated Computer Science graduate from the University of Edinburgh, currentl
 
 ### System Engineering
 - Group Project: A domino-placing robot based on TurtleBot, Lego motors, 3D printed parts and an Android App for Bluetooth connection to the robot for the course *System Design Project*
+
+### Software Engineering
+- Backend: flask, fastapi, MongoDB
+- Dockerize services, CLI based off argparse / simple Web UI with streamlit
