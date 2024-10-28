@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Shuyuan Zhang" />
+  <title>A Proposal: Neural Generation of Novel Procedural Shape Programs from 3D Mesh Data</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">A Proposal: Neural Generation of Novel Procedural
+Shape Programs from 3D Mesh Data</h1>
+<p class="author">Shuyuan Zhang</p>
+<p class="date">September 2024</p>
+</header>
+<h1 id="motivation">Motivation</h1>
+<p>Procedural modeling is a powerful tool for generating complex 3D
+shapes through manipulating a limited number of parameters, yet creating
+the procedural programs is a challenging task. There exists various work
+in the Inverse Procedural Modeling domain that rely on existing shape
+programs to achieve automatic inference on shape parameters, however,
+few work had focused on solving the problem of generating novel shape
+programs from scratch.</p>
+<p>The furthest goal for such a field of study can be abstracted as
+follows: given user requests in arbitrary form, an ideal solution should
+be able to generate a procedural program that can produce the desired 3D
+shape, at the same time exposing parameters that are easy to manipulate
+for the user.</p>
+<p>We may consider a gradual process of decomposing the grand goal into
+smaller, more manageable sub-tasks as the following: (visualized in
+figure <a href="#fig:steps" data-reference-type="ref"
+data-reference="fig:steps">1</a>)</p>
+<ul>
+<li><p>starting with accepting user requests as <strong>text
+prompts</strong>, one problem is the lack of detailed information on the
+desired shape - "generate a chair" provides only the domain information,
+as an example of a bad prompt. This is where LLMs may get involved, for
+example in filling in details to the prompt;</p></li>
+<li><p>we take the first step back, from accepting text prompts to
+accepting <strong>2D images</strong> provided by the user, either sketch
+images or photo-realistic ones - this task is backed up by sufficient
+details from images directly, and various techniques like differentiable
+rendering can help in ensuring that the generated shape matches user
+request. We may also step back to text prompts utilizing text-to-image
+models.</p></li>
+<li><p>we then take the second step back, now accepting <strong>3D
+mesh</strong> data as inputs directly - similarly, this step can be
+taken forward again with existing image-based 3D shape
+retrieval/reconstruction methods, and we now have access to more direct
+information on what the user wishes to generate. Optimization techniques
+would be helpful in constraining the generative model, however, we must
+stay aware that although optimization pipelines may yield better
+results, it is not easy to replace the mesh-based optimization method
+with similar module available in 2D or for text. Therefore, we should
+aim for single-pass synthesis method in this step.</p></li>
+<li><p>Besides these two steps, we may find another semi-isolated
+problem: there exists a trade-off between the
+<strong>expressiveness</strong> of the program and the <strong>ease of
+manipulation</strong> for the user, and with current Inverse Procedural
+Modeling methods, the above grand goal can be simplified: with an
+<strong>automatic parameter-filling</strong> model, our generated
+procedural program does not need to be easy to interpret or necessarily
+manipulated by human users.</p></li>
+</ul>
+<figure id="fig:steps">
+<embed src="figs/steps.pdf" style="width:75.0%" />
+<figcaption>Steps in re-formulating the novel shape program synthesis
+task visualized.</figcaption>
+</figure>
+<p>This proposal attempts to tackle the second step back mentioned
+above, which is generating novel procedural shape programs from 3D mesh
+data.</p>
+<figure id="fig:inference">
+<embed src="figs/inference.pdf" />
+<figcaption>Inference process visualized.</figcaption>
+</figure>
+<h1 id="method-overview">Method Overview</h1>
+<p>The proposed method has a straight-forward inference process
+(visualized in figure <a href="#fig:inference" data-reference-type="ref"
+data-reference="fig:inference">2</a>): given a 3D mesh as input, we
+employ a state-of-the-art mesh encoder to produce a feature embedding,
+and a text-generation decoder network trained on gathered data will
+produce a shape program as executable program code that can reproduce
+the input mesh, finally with proper refactoring, we end up with a new
+procedural shape program that include the original input mesh as one of
+its output variations.</p>
+<figure id="fig:data_prep_and_training">
+<embed src="figs/data_prep_and_training.pdf" />
+<figcaption>Data preparation and training process
+visualized.</figcaption>
+</figure>
+<p>In terms of data preparation and training, we take high level
+inspiration from the work on diffusion models from <span
+class="citation" data-cites="diffusion"></span>, which creates training
+data through disturbing an original piece of data entry. As visualized
+in figure <a href="#fig:data_prep_and_training"
+data-reference-type="ref"
+data-reference="fig:data_prep_and_training">3</a>, given an arbitrary
+procedural shape program, we create disturbed training data in two
+ways:</p>
+<ul>
+<li><p>we sample the parameters of the procedural program, and we embed
+the parameter values into the shape program to end up with a new data
+entry (namely, a procedural shape program with parameter values embedded
+inside);</p></li>
+<li><p>we randomly disturb the procedural program itself, in ways such
+as changing hard-coded values, removing / switching code blocks and
+tweaking statement in the code; now we receive a set of new shape
+programs, which, their outputs may not be meaningful or related to the
+original shape domain anymore, however, this is intended since we expect
+the decoder to learn to generate arbitrary shapes. This step can also be
+done with prompting LLMs, and early experiments already yielded
+satisfactory results as shown in figure <a href="#fig:perturbs"
+data-reference-type="ref" data-reference="fig:perturbs">4</a>. A simple
+LLM-based perturb algorithm is summarized in figure <a
+href="#fig:perturb_alg" data-reference-type="ref"
+data-reference="fig:perturb_alg">5</a>.</p></li>
+</ul>
+<figure id="fig:perturbs">
+<embed src="figs/perturbs.pdf" style="width:75.0%" />
+<figcaption>Prompting LLMs to perturb shape programs.</figcaption>
+</figure>
+<figure id="fig:perturb_alg">
+<embed src="figs/perturb_alg.pdf" style="width:75.0%" />
+<figcaption>A simple LLM-based perturb algorithm with feedback loops and
+potentials to extend. </figcaption>
+</figure>
+<p>The rest of the data preparation and training process is also
+visualized in figure <a href="#fig:data_prep_and_training"
+data-reference-type="ref"
+data-reference="fig:data_prep_and_training">3</a>: we execute the shape
+programs in shape engine to obtain corresponding mesh, and we encode
+them with the same mesh encoder we will use in inference to obtain mesh
+embeddings. Pairing the generated feature embedding and the shape
+program, we now have a dataset for training the decoder network.</p>
+<p>Note that properly exposed parameters are a necessary part of a
+procedural model, thus, in the first step above we may record a new set
+of data (of shape programs with exposed parameters and corresponding
+programs with embedded parameter values) for training a Shape Program
+Refactoring model, which in its essence will be another decoder
+model.</p>
+<h1 id="related-work">Related Work</h1>
+<p>OpenSCAD is a popular open-source software for creating 3D models
+(especially procedural ones) from code. Previously, we have used
+Blender’s library on creating DAG-based procedural shape programs,
+however, we need to use another open-source library for converting
+Python codes into Blender’s geometry node system, which adds complexity
+both to the process and to the grammar the decoder needs to learn.</p>
+<p>There exists a wide range of choices for mesh encoders, such as
+PointNet++ <span class="citation" data-cites="pointnet++"></span> and
+MeshCNN <span class="citation" data-cites="meshcnn"></span>. In terms of
+decoder networks for text generation, LLMs like GPT-4 or LLaMA <span
+class="citation" data-cites="llama"></span> are natural choices,
+however, since at least some fine-tuning is needed for these models and
+the cost will not be negligible, we may start with a similar but simpler
+architecture, such as a Transformer-based <span class="citation"
+data-cites="transformer"></span> decoder.</p>
+<h1 id="discussions">Discussions</h1>
+<p>The lack of optimization in the process yields its own pros and cons:
+it is now easy to migrate the how pipeline to 2D image data as input,
+but there is chance that we cannot explicitly control the quality of
+generated shape programs. This can serve as a fallback option, in case
+the performance of the single-pass decoder network suffers, and when
+migrating to 2D, as mentioned previously, there are work-arounds for 3D
+mesh-based constraints. In fact, in the earliest versions of this
+proposal, a purely text-based and prompting-based solution with visual
+LMs was involved, but with the risk of a never-converging optimization
+loop. This proposal is thus open to more discussions.</p>
+</body>
+</html>
