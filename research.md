@@ -7,3 +7,6 @@ Interested in combination of CV / CG / NLP.
     - Develop Blender add-on as user interface
 - GraphviX Lab, IPAB, UoE - Summer Research Internship (Summer 2023)
     - Researched on topics of sketch-based inverse procedural modeling. Implemented shape grammars based on Blender geometry nodes and its APIs. Trained neural networks to inference shape parameters from sketches, and integrated above pipelines as a Blender plug-in. Some tech stacks are also part of my bachelor dissertation. 
+
+# Proposals
+- Novel Procedural Shape Program Synthesis [full](procSPgen.html) / [short](proposal_proc_sp_gen.html)
