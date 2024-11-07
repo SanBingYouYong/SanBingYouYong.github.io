@@ -12,7 +12,7 @@ We may consider a gradual process of decomposing the grand goal into smaller, mo
 - we then take the second step back, now accepting **3D mesh** data as inputs directly - similarly, this step can be taken forward again with existing image-based 3D shape retrieval/reconstruction methods, and we now have access to more direct information on what the user wishes to generate. Optimization techniques would be helpful in constraining the generative model, however, we must stay aware that although optimization pipelines may yield better results, it is not easy to replace the mesh-based optimization method with similar module available in 2D or for text. Therefore, we should aim for single-pass synthesis method in this step. 
 - Besides these two steps, we may find another semi-isolated problem: there exists a trade-off between the **expressiveness** of the program and the **ease of manipulation** for the user, and with current Inverse Procedural Modeling methods, the above grand goal can be simplified: with an **automatic parameter-filling** model, our generated procedural program does not need to be easy to interpret or necessarily manipulated by human users. 
 Or see this figure: 
-![steps](./figs/steps.pdf) TODO png
+![steps](./figs/steps.png)
 
 This proposal attempts to tackle the second step back mentioned above, which is generating novel procedural shape programs from 3D mesh data. 
 
@@ -20,16 +20,16 @@ This proposal attempts to tackle the second step back mentioned above, which is 
 ## Method Overview
 The proposed method has a straight-forward inference process (visualized in the below figure): given a 3D mesh as input, we employ a state-of-the-art mesh encoder to produce a feature embedding, and a text-generation decoder network trained on gathered data will produce a shape program as executable program code that can reproduce the input mesh, finally with proper refactoring, we end up with a new procedural shape program that include the original input mesh as one of its output variations. 
 
-![inference](./figs/inference.pdf) TODO png
+![inference](./figs/inference.png)
 
 In terms of data preparation and training, we take high level inspiration from the work on diffusion models from *diffusion*, which creates training data through disturbing an original piece of data entry. As visualized in following figure, given an arbitrary procedural shape program, we create disturbed training data in two ways: 
-![data_prep_and_training](./figs/data_prep_and_training.pdf) TODO png
+![data_prep_and_training](./figs/data_prep_and_training.png)
 
 - we sample the parameters of the procedural program, and we embed the parameter values into the shape program to end up with a new data entry (namely, a procedural shape program with parameter values embedded inside); 
 - we randomly disturb the procedural program itself, in ways such as changing hard-coded values, removing / switching code blocks and tweaking statement in the code; now we receive a set of new shape programs, which, their outputs may not be meaningful or related to the original shape domain anymore, however, this is intended since we expect the decoder to learn to generate arbitrary shapes. This step can also be done with prompting LLMs, and early experiments already yielded satisfactory results as shown in the following figure. A simple LLM-based perturb algorithm is summarized in the next figure too. 
 
-![perturbs](./figs/perturbs.pdf) TODO png
-![perturb_alg](./figs/perturb_alg.pdf) TODO png
+![perturbs](./figs/perturbs.png)
+![perturb_alg](./figs/perturb_alg.png)
 
 The rest of the data preparation and training process is also visualized already: we execute the shape programs in shape engine to obtain corresponding mesh, and we encode them with the same mesh encoder we will use in inference to obtain mesh embeddings. Pairing the generated feature embedding and the shape program, we now have a dataset for training the decoder network. 
 
