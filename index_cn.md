@@ -38,6 +38,7 @@
 
 ## 链接:
 - [研究经历](./research_cn.html)
+- [想法与笔记](./thoughts_cn.html)
 - [工作/实习](./work_cn.html)
 - [完整简历](./resume_cn.html)
 - [Repo列表](./repos_cn.html)

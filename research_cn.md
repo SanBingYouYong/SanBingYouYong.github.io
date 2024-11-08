@@ -7,3 +7,6 @@
     - 开发Blender插件作为用户界面
 - 爱丁堡大学IPAB GraphviX实验室 - 暑期研究实习（2023年夏）
     - 研究基于手绘的逆向程序化建模课题。基于Blender几何节点及其API实现形状文法。训练神经网络从手绘中推断形状参数，并将上述流程集成为Blender插件。这些技术栈的一部分也是我本科毕业论文的一部分。
+
+# 研究计划
+- 程式化建模程序生成 [完整版html](procSPgen.html) / [简略版](proposal_proc_sp_gen.html)
