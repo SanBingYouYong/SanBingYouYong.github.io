@@ -8,4 +8,8 @@
 
 ![distortion_renderer](figs/dr.png)
 
-## [On personal assistant based on LLMs](plans_personal_assistant.html)
+## [On personal assistants based on LLMs](plans_personal_assistant.html)
+
+## [On decay functions for exploratory reinforcement learning](notes_rl_e_decay.html)
+
+![epsilon](figs/decay_function_1.svg)
