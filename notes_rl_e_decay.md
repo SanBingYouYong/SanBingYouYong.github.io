@@ -4,7 +4,9 @@ In the context of reinforment learning, we wish to set up a e-greedy policy to a
 
 In practice, we often find the need to precisely define when does the major exploratory period ends and by what threshold, to put it in another way, we want to let e to decay to a threshold `a` after `b` time steps.
 
-A usual exponential decay functions takes the form: <math xmlns="http://www.w3.org/1998/Math/MathML">
+A usual exponential decay functions takes the form: 
+
+<math xmlns="http://www.w3.org/1998/Math/MathML">
   <mi>ε</mi>
   <mo>=</mo>
   <msup>
@@ -15,7 +17,13 @@ A usual exponential decay functions takes the form: <math xmlns="http://www.w3.o
       <mi>t</mi>
     </mrow>
   </msup>
-</math> where `k` is a constant controling the decay and `t` is the current time step. We carry out some manual experiment and find out: <math xmlns="http://www.w3.org/1998/Math/MathML">
+</math> 
+
+where `k` is a constant controling the decay and `t` is the current time step. 
+
+We carry out some manual experiment and find out: 
+
+<math xmlns="http://www.w3.org/1998/Math/MathML">
   <mi>ε</mi>
   <mo>=</mo>
   <msup>
@@ -33,7 +41,13 @@ A usual exponential decay functions takes the form: <math xmlns="http://www.w3.o
       <mi>t</mi>
     </mrow>
   </msup>
-</math> apprxoimates our requirements. We generalize this form to find an exact solution for some constant that replaces 1/3: <math xmlns="http://www.w3.org/1998/Math/MathML">
+</math> 
+
+apprxoimates our requirements. 
+
+We generalize this form to find an exact solution for some constant that replaces 1/3: 
+
+<math xmlns="http://www.w3.org/1998/Math/MathML">
   <mi>ε</mi>
   <mo>=</mo>
   <msup>
@@ -52,7 +66,9 @@ A usual exponential decay functions takes the form: <math xmlns="http://www.w3.o
   </msup>
 </math>.
 
-Solving for the above equation =a yields `c=-a*ln(a)`, and inserting it back we end up with <math xmlns="http://www.w3.org/1998/Math/MathML">
+Solving for the above equation =a yields `c=-a*ln(a)`, and inserting it back we end up with 
+
+<math xmlns="http://www.w3.org/1998/Math/MathML">
   <mi>ε</mi>
   <mo>=</mo>
   <msup>
@@ -68,7 +84,9 @@ Solving for the above equation =a yields `c=-a*ln(a)`, and inserting it back we 
       <mi>t</mi>
     </mrow>
   </msup>
-</math>, where `a` is the decay target (e.g. 0.1) at time step `b` (e.g. after 50 steps), and `t` the time step. Note that we removed the `k` parameter to control the decay since even if we added it, it's gonna cancel itself out - makes sense intuitively if we already control the decay with a set point `(b, a)`. However, it is possible to define a more complex or a piece-wise decay function that allows control over decay speed before (and/or) after the thresholding point.
+</math>
+
+where `a` is the decay target (e.g. 0.1) at time step `b` (e.g. after 50 steps), and `t` the time step. Note that we removed the `k` parameter to control the decay since even if we added it, it's gonna cancel itself out - makes sense intuitively if we already control the decay with a set point `(b, a)`. However, it is possible to define a more complex or a piece-wise decay function that allows control over decay speed before (and/or) after the thresholding point.
 
 ![a](./figs/decay_function_1.svg)
 ![b](./figs/decay_function_2.svg)
