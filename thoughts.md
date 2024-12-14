@@ -13,3 +13,7 @@
 ## [On decay functions for exploratory reinforcement learning](notes_rl_e_decay.html)
 
 ![epsilon](figs/decay_function_1.svg)
+
+## [On decoupling personal compute](thoughts_laptop_divide.html)
+
+![decouple laptop](figs/decoupled_laptop.png)
