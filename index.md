@@ -2,6 +2,12 @@
 
 A dedicated Computer Science graduate from the University of Edinburgh, currently pursuing an MSc in Advanced Computing at Imperial College London. With a solid background in **Computer Vision**, **Computer Graphics**, and **Natural Language Processing**, he has gained valuable experience in various technical domains, including *digital humans* and *large language models*.
 
+## News
+
+Teaser on my ISO project (multi-agent training-free shape program synthesis): 
+![gallery](./assets/img/gallery.png)
+(yes, cherry-picked results)
+
 ## TL;DR
 
 ### CV/CG

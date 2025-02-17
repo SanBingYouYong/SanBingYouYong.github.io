@@ -2,6 +2,13 @@
 
 一名爱丁堡大学计算机科学本科毕业生, 目前正在伦敦帝国理工学院攻读Advanced Computing硕士学位。他在**计算机视觉**、**计算机图形学**和**自然语言处理**方面拥有扎实的背景, 并在*数字人*和*大型语言模型*等多个技术领域积累了宝贵的经验。
 
+## 最新
+
+预告: 帝国理工ISO项目(multi-agent training-free shape program synthesis): 
+![gallery](./assets/img/gallery.png)
+(没错, 精挑细选了展示的生成结果)
+
+
 ## 摘要
 
 ### 计算机视觉/计算机图形学
