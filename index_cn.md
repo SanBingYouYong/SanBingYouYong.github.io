@@ -4,6 +4,9 @@
 
 ## 最新
 
+想在Windows Terminal中获得`bashrc`级别的自定义？
+- 看看[这里](notes_bashrc_in_powershell.md)！
+
 预告: 帝国理工ISO项目(multi-agent training-free shape program synthesis): 
 ![gallery](./assets/img/gallery.png)
 (没错, 精挑细选了展示的生成结果)

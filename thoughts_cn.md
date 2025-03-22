@@ -1,5 +1,9 @@
 # 想法与笔记
 
+## [Bashrc但是Windows Terminal](notes_bashrc_in_powershell.md)
+
+![powershell doc](assets/img/st_doc_show.png)
+
 ## [(en)有关程式化模型程序生成](proposal_proc_sp_gen.html)
 
 ![steps](figs/steps.png)

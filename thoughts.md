@@ -8,6 +8,10 @@
 
 ![distortion_renderer](figs/dr.png)
 
+## [On "bashrc" guide for Windows Terminal](notes_bashrc_in_powershell_en.md)
+
+![powershell doc](assets/img/st_doc_show.png)
+
 ## [On personal assistants based on LLMs](plans_personal_assistant.html)
 
 ## [On decay functions for exploratory reinforcement learning](notes_rl_e_decay.html)

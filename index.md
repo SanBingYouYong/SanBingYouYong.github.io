@@ -4,6 +4,9 @@ A dedicated Computer Science graduate from the University of Edinburgh, currentl
 
 ## News
 
+Want `bashrc`-level customization of your Windows Terminal? 
+- check this [note](notes_bashrc_in_powershell_en.md)
+
 Teaser on my ISO project (multi-agent training-free shape program synthesis): 
 ![gallery](./assets/img/gallery.png)
 (yes, cherry-picked results)
