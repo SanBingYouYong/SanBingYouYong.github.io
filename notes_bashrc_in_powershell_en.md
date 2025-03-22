@@ -10,7 +10,7 @@
     - You can then use them with `$xxx`.
     - Or directly use `$xxx = xxxxxx`.
 - Define functions (`alias f="xxxx"`): `function f { xxxx }`
-    - The big models do this better than you.
+    - LLMs probably do this better than you.
     - For example:
         - Quickly open your magical tools library:
             ```powershell
