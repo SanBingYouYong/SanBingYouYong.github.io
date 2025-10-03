@@ -1,0 +1,23 @@
+site_name: ZHANG Shuyuan
+site_url: https://sanbingyouyong.github.io/
+theme:
+  name: material
+  logo: img/poster.png
+  favicon: img/poster.png
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
