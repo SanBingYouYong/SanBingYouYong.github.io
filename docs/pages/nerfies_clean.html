@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="[Your Paper's Short Description Here]">
+  <meta name="keywords" content="[Keyword 1], [Keyword 2], [Keyword 3]">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>[Your Paper Title Here]</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="[Link to your personal website or lab page]">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+
+      </div>
+
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">[Your Paper Title Here]</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="[Author 1 Website]">[Author 1 Name]</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="[Author 2 Website]">[Author 2 Name]</a><sup>2</sup>,</span>
+            </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>[Affiliation 1],</span>
+            <span class="author-block"><sup>2</sup>[Affiliation 2]</span>
+            </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="[Link to your paper PDF]"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="[Link to your paper on arXiv]"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="[Link to your project video on YouTube/Vimeo]"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="[Link to your code repository on GitHub]"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <span class="link-block">
+                <a href="[Link to your dataset (if applicable)]"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video id="teaser" autoplay muted loop playsinline height="100%">
+        <source src="./static/videos/[your_teaser_video].mp4"
+                type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        [A concise tagline or summary of your paper, e.g., "Our method achieves X by doing Y."]
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-1">
+          <video poster="" id="video-1" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/[your_result_video_1].mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-2">
+          <video poster="" id="video-2" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/[your_result_video_2].mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            [Your abstract paragraph 1. Briefly introduce your problem and motivation.]
+          </p>
+          <p>
+            [Your abstract paragraph 2. Describe your proposed method or approach.]
+          </p>
+          <p>
+            [Your abstract paragraph 3. Summarize your key results and conclusions.]
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video Explanation</h2>
+        <div class="publication-video">
+          <iframe src="[Embed URL for your main paper video, e.g., YouTube embed link]?rel=0&amp;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <div class="columns is-centered">
+
+      <div class="column">
+        <div class="content">
+          <h2 class="title is-3">[Your Section Title 1, e.g., "Key Results"]</h2>
+          <p>
+            [Description for your first key result/visualization.]
+          </p>
+          <video id="result-video-1" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/[your_result_video_3].mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <div class="column">
+        <h2 class="title is-3">[Your Section Title 2, e.g., "Comparative Analysis"]</h2>
+        <div class="columns is-centered">
+          <div class="column content">
+            <p>
+              [Description for your second key result/visualization.]
+            </p>
+            <video id="result-video-2" controls playsinline height="100%">
+              <source src="./static/videos/[your_result_video_4].mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+
+        </div>
+      </div>
+      </div>
+
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">[Your Interactive Demo/Animation Title]</h2>
+
+        <h3 class="title is-4">[Subsection Title, e.g., "Parameter Interpolation"]</h3>
+        <div class="content has-text-justified">
+          <p>
+            [Explanation of your interactive element or animation.]
+          </p>
+        </div>
+        <div class="columns is-vcentered interpolation-panel">
+          <div class="column is-3 has-text-centered">
+            <img src="./static/images/[your_start_image].jpg"
+                 class="interpolation-image"
+                 alt="Start reference image."/>
+            <p>Start State</p>
+          </div>
+          <div class="column interpolation-video-column">
+            <div id="interpolation-image-wrapper">
+              Loading... </div>
+            <input class="slider is-fullwidth is-large is-info"
+                   id="interpolation-slider"
+                   step="1" min="0" max="100" value="0" type="range">
+          </div>
+          <div class="column is-3 has-text-centered">
+            <img src="./static/images/[your_end_image].jpg"
+                 class="interpolation-image"
+                 alt="End reference image."/>
+            <p class="is-bold">End State</p>
+          </div>
+        </div>
+        <br/>
+        <h3 class="title is-4">[Another Subsection Title, e.g., "Re-rendered Results"]</h3>
+        <div class="content has-text-justified">
+          <p>
+            [Description of another video demonstration.]
+          </p>
+        </div>
+        <div class="content has-text-centered">
+          <video id="replay-video"
+                 controls
+                 muted
+                 preload
+                 playsinline
+                 width="75%">
+            <source src="./static/videos/[your_replay_video].mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Related Links</h2>
+
+        <div class="content has-text-justified">
+          <p>
+            [Optional: Add links to related work that you want to highlight.]
+          </p>
+          </div>
+      </div>
+    </div>
+    </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{[your_citation_key],
+  author    = {[Author 1 Name] and [Author 2 Name] and [Author N Name]},
+  title     = {{[Your Paper Title]}},
+  journal   = {[Conference/Journal Name]},
+  year      = {[Year]},
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="[Link to your paper PDF]">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="[Link to your GitHub profile or organization]" class="external-link">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website template is based on the <a
+              href="https://github.com/nerfies/nerfies.github.io">Nerfies project page</a>.
+          </p>
+          <p>
+            Please cite our paper if you find this work useful for your research.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
