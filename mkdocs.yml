@@ -2,8 +2,8 @@ site_name: ZHANG Shuyuan
 site_url: https://sanbingyouyong.github.io/
 theme:
   name: material
-  logo: img/poster.png
-  favicon: img/poster.png
+  logo: img/profile.png
+  favicon: img/profile.png
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
