@@ -19,7 +19,7 @@ A Natural General Intelligence model specialised in **research topics** from 3D 
 
 ![ShapeCraft Teaser Image](img/shapecraft.png)
 
-**[ShapeCraft: LLM Agents for Structured, Textured and Interactive 3D Modeling](pages/shapecraft.html)**, *Shuyuan Zhang*, Chenhan Jiang, Zuoou Li, and Jiankang Deng, `NeurIPS 2025`
+**[ShapeCraft: LLM Agents for Structured, Textured and Interactive 3D Modeling](https://sanbingyouyong.github.io/shapecraft)**, *Shuyuan Zhang*, Chenhan Jiang, Zuoou Li, and Jiankang Deng, `NeurIPS 2025`
 
 ![MSc Thesis Teaser Image](img/msc.png)
 
