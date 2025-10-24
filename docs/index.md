@@ -31,13 +31,13 @@
 
 **[ShapeCraft: LLM Agents for Structured, Textured and Interactive 3D Modeling](https://sanbingyouyong.github.io/shapecraft)**, <u>Shuyuan Zhang</u>\*, Chenhan Jiang\*, Zuoou Li, and Jiankang Deng, `NeurIPS 2025`
 
-![MSc Thesis Teaser Image](img/msc.png)
+![MSc Dissertation Teaser Image](img/msc.png)
 
-**Towards Unified, Structured and LLM-native 3D Scene Synthesis**, `MSc Thesis`
+**Towards Unified, Structured and LLM-native 3D Scene Synthesis**, `MSc Dissertation`
 
-![BSc Thesis Teaser Image](img/bsc.png)
+![BSc Dissertation Teaser Image](img/bsc.png)
 
-[**Inverse Procedural Modeling: From Sketches to Buildings**](https://project-archive.inf.ed.ac.uk/ug4/20244373/ug4_proj.pdf), `BSc Thesis`
+[**Inverse Procedural Modeling: From Sketches to Buildings**](https://project-archive.inf.ed.ac.uk/ug4/20244373/ug4_proj.pdf), `BSc Dissertation`
 
 </div>
 
@@ -65,7 +65,7 @@
 
 ![Distortion Renderer Image](img/dr.png)
 
-**[Distortion Renderer](https://github.com/SanBingYouYong/distortion-renderer)**, a custom Blender add-on that distorts an object’s edges and renders with Freestyle to create a sketch-like image, extracted from `BSc Thesis`.
+**[Distortion Renderer](https://github.com/SanBingYouYong/distortion-renderer)**, a custom Blender add-on that distorts an object’s edges and renders with Freestyle to create a sketch-like image, extracted from `BSc Dissertation`.
 
 ![Notes Search Interface Image](img/notes_search.png)
 
