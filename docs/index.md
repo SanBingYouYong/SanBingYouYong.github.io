@@ -29,7 +29,7 @@
 
 ![ShapeCraft Teaser Image](img/shapecraft.png)
 
-**[ShapeCraft: LLM Agents for Structured, Textured and Interactive 3D Modeling](https://sanbingyouyong.github.io/shapecraft)**, <u>Shuyuan Zhang</u>\*, Chenhan Jiang\*, Zuoou Li, and Jiankang Deng, `NeurIPS 2025`
+**[ShapeCraft: LLM Agents for Structured, Textured and Interactive 3D Modeling](/shapecraft/)**, <u>Shuyuan Zhang</u>\*, Chenhan Jiang\*, Zuoou Li, and Jiankang Deng, `NeurIPS 2025`
 
 ![MSc Dissertation Teaser Image](img/msc.png)
 
