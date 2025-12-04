@@ -1,4 +1,8 @@
-# Model Gallery
+# shuyuan-vl
+
+<p style="font-size: large;">A Vision-Language model specialised in comprehending the real world and operating photo-capturing devices. The following is a gallery of photographs taken across different scenarios.</p>
+
+## 📷 Photo Gallery
 
 <div class="grid cards" markdown>
 

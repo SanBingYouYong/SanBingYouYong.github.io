@@ -17,7 +17,24 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.top
+    - navigation.expand
 markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.blocks.caption
+nav:
+  # - shuyuan-research: 'index.md'
+  # - shuyuan-coder: 'coding.md'
+  # - shuyuan-vl: 'photo.md'
+  # - ShapeCraft: '/shapecraft/'
+  - Models:
+    - shuyuan-research: 'index.md'
+    - shuyuan-coder: 'coding.md'
+    - shuyuan-vl: 'photo.md'
+  - Featured: 
+    - ShapeCraft: '/shapecraft/'
