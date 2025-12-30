@@ -37,4 +37,4 @@ nav:
     - shuyuan-coder: 'coding.md'
     - shuyuan-vl: 'photo.md'
   - Featured: 
-    - ShapeCraft: '/shapecraft/'
+    - ShapeCraft: 'shapecraft/'
