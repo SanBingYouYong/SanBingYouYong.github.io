@@ -28,13 +28,9 @@ markdown_extensions:
   - md_in_html
   - pymdownx.blocks.caption
 nav:
-  # - shuyuan-research: 'index.md'
-  # - shuyuan-coder: 'coding.md'
-  # - shuyuan-vl: 'photo.md'
-  # - ShapeCraft: '/shapecraft/'
   - Models:
     - shuyuan-research: 'index.md'
     - shuyuan-coder: 'coding.md'
     - shuyuan-vl: 'photo.md'
   - Featured: 
-    - ShapeCraft: 'shapecraft/'
+    - ShapeCraft: 'shapecraft/index.html'
